@@ -1,4 +1,3 @@
 # KUtilities
-KUtilites are scripts for simple systems or tutorials to look up or implement directly. Each script also contains one or more links to the corresponding videos. 
-
-KUTilities can be implemented as a whole or only individually. Please note the folder structures.
+KUtilites are scripts which I personally use in my Unity projects to avoid having to rewrite them over and over again. The collection may be implemented completely or partially in your projects. You don't have to give credit for it. 
+Please keep in mind the folder structure, if you have more than one script in one folder they belong together. Also pay attention to a link in the scripts. This links to a video that shows the functionality of the script.
