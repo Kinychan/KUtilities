@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// Speichert einen Screenshot in der Game Window Resolution im Rootfolder des Projektes.
-/// Funktioniert nur in der Runtime.
+/// Saves a screenshot in the resolution of the game window in the root directory of the project.
+/// Works only in the runtime.
 /// </summary>
 public class ScreenshotManager : MonoBehaviour
 {
-    public KeyCode screenShotButton; // Taste die gedrueckt werden muss fuer einen Screenshot
+    public KeyCode screenShotButton; // Button for taking a screenshot
 
     void Update()
     {
@@ -23,6 +23,6 @@ public class ScreenshotManager : MonoBehaviour
         yield return new WaitForEndOfFrame();
         string currentTime = System.DateTime.Now.ToString("MM-dd-yy (HH-mm-ss)");
         ScreenCapture.CaptureScreenshot(currentTime + ".png");
-        Debug.Log($"<color=green>Screenshot erstellt!</color>");
+        Debug.Log($"<color=green>Screenshot created!</color>");
     }
 }
