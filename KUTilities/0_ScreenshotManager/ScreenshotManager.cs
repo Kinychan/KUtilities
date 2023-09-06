@@ -2,6 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+/// <summary>
+/// Video Previews
+/// YouTube: https://youtube.com/shorts/0C1CqHJZ-G8
+/// TikTok: inc.  
+/// Instagram: inc.
+/// </summary>
+
 /// <summary>
 /// Saves a screenshot in the resolution of the game window in the root directory of the project.
 /// Works only in the runtime.
